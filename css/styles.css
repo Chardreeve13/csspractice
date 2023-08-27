@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --iris: #4d5ae5;
+    --navyblue: #2E2F42;
+    --ocean: #404bbf;
+    --white: #ffffff;
+    --slate: #434455;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --green: #31d0aa;
+    --lightslate: #8e8f99;
+    --navybluemodal: #2e2f42;
+    --grey: #2e2f42;
+    --dairy: #fcfcfc;
+}
+
+.main-header {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 330px;
+
+}
+
+.main-header-nav {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 25.5px, 156px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.nav-list {
+    display: inline-flex;
+    text-decoration: none;
+    padding-left: 0;
+    margin-left: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 40px;
+
+}
+
+.nav-logo-wrap {
+    display: flex;
+    color: var(--iris);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+}
+
+.nav-logo-wrap a {
+    /* display:inline-flex; */
+    text-decoration: none;
+}
+
+.studio {
+    color: var(--navyblue);
+}
+
+.address-link-list,
+.nav-list-link {
+    list-style: none;
+}
+
+.nav-link {
+    color: var(--navyblue);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.nav-logo-wrap a:hover,
+.studio:hover,
+.nav-link:hover {
+    color: var(--ocean);
+}
+
+address {
+    /* display: inline-flex; */
+    font-style: normal;
+    margin-bottom: 0;
+
+}
+
+.address-list {
+    display: inline-flex;
+    padding-left: 0;
+    margin-left: 0;
+    gap: 40px;
+}
+
+.address-list a {
+    gap: 330px;
+    margin: 0;
+}
+
+.address-link {
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.address-link:hover {
+    color: var(--ocean);
+}
