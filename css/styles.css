@@ -40,7 +40,7 @@ ul {
     --grey: #2e2f42;
     --dairy: #fcfcfc;
 }
-
+/* 
 .main-header {
     display: flex;
     width: 1440px;
@@ -86,7 +86,6 @@ ul {
 }
 
 .nav-logo-wrap a {
-    /* display:inline-flex; */
     text-decoration: none;
 }
 
@@ -117,7 +116,6 @@ ul {
 }
 
 address {
-    /* display: inline-flex; */
     font-style: normal;
     margin-bottom: 0;
 
@@ -147,4 +145,4 @@ address {
 
 .address-link:hover {
     color: var(--ocean);
-}
+} */
