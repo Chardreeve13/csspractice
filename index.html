@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Navbar in CSS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>main page</title>
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+    family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
+    <header class="main-header">
+        <nav class="main-header-nav">
+            <div class="nav-logo-wrap">
+                <a href="index.html">WEB<span class="studio">STUDIO</span></a>
+                <ul class="nav-list">
+                    <li class="nav-list-link">
+                        <a class="nav-link" href="index.html">Studio</a>
+                    </li>
+                    <li class="nav-list-link">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-list-link">
+                        <a class="nav-link" href="index.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <a class="cta" href="#"><button>Contact</button></a>
+        <address class="address">
+            <ul class="address-list">
+                <li class="address-link-list">
+                    <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="address-link-list">
+                    <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </address>
     </header>
-    
 </body>
 </html>
